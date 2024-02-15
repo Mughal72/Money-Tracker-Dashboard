@@ -2,16 +2,16 @@ import Chart from "./Chart";
 
 function Dashboard() {
   return (
-    <div className="flex flex-col py-10 px-16 h-screen overflow-y-auto w-full">
-      <h2>Dashboard</h2>
+    <div className="flex flex-col py-10 px-16 h-screen overflow-y-auto w-full font-mono bg-[#F5F5DC]">
+      <h2 className="text-xl text-amber-900">Dashboard</h2>
 
       <div className="flex space-x-8 py-6">
         <div className="flex flex-col rounded-md border w-[400px] h-[150px] p-8 justify-center">
-          <h2>Yatharth Verma</h2>
+          <h2>Anber Sattar</h2>
           <p className="text-gray-500 mt-3">Your Expenses: Rs10000</p>
         </div>
         <div className="flex flex-col rounded-md border w-[400px] h-[150px] p-8 justify-center">
-          <h2>Yatharth Verma</h2>
+          <h2>Anber Satatr</h2>
           <p className="text-gray-500 mt-3">Your Savings: Rs100000</p>
         </div>
       </div>

@@ -24,7 +24,7 @@ function Navbar() {
       animate={isExpanded ? "expanded" : "nonexpanded"}
       variants={variants}
       className={
-        "py-10 h-screen flex flex-col border border-r-1 bg-[#FDFDFD] relative" +
+        "py-10 h-screen flex flex-col border border-r-1 bg-[#a86c6c] relative font-mono " +
         (isExpanded ? " px-10" : " px-6")
       }
     >
@@ -43,7 +43,7 @@ function Navbar() {
       </div>
       <div className="logo-div flex space-x-4 items-center">
         <img src={Logo} />
-        <span className={!isExpanded ? "hidden" : "block"}>Money Tracker</span>
+        <span className={!isExpanded ? "hidden" : "block"} >Money Tracker</span>
       </div>
       <div className="flex flex-col space-y-8 mt-12">
         <div className="nav-links w-full">
